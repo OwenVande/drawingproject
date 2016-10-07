@@ -22,6 +22,29 @@ canvas.bezierCurveTo(500, 135, 555, 100, 600, 120);
 canvas.fillStyle = "ForestGreen";
 canvas.fill();
 
+canvas.beginPath();
+canvas.moveTo(350, 10);
+canvas.bezierCurveTo(350, 70, 390, 120, 390, 110);
+canvas.fillStyle = "DarkGreen";
+canvas.fill();
+
+canvas.beginPath();
+canvas.moveTo(400, 0);
+canvas.bezierCurveTo(400, 60, 450, 130, 450, 120);
+canvas.fillStyle = "DarkGreen";
+canvas.fill();
+
+canvas.beginPath();
+canvas.moveTo(310, 44);
+canvas.bezierCurveTo(310, 80, 350, 130, 350, 120);
+canvas.fillStyle = "DarkGreen";
+canvas.fill();
+
+canvas.beginPath();
+canvas.moveTo(447, 10);
+canvas.bezierCurveTo(450, 70, 500, 140, 500, 130);
+canvas.fillStyle = "DarkGreen";
+canvas.fill();
 
 canvas.beginPath();
 canvas.arc(400, 330, 110, 0, 2*Math.PI);//first scoop
